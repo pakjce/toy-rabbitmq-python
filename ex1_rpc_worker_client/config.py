@@ -11,6 +11,7 @@ AMQP_HOST = os.getenv('AMQP_HOST', 'localhost')
 AMQP_PORT = int(os.getenv('AMQP_PORT', '5672'))
 AMQP_USER = os.getenv('AMQP_USER', 'admin')
 AMQP_PASSWORD = os.getenv('AMQP_PASSWORD', 'admin')
+AMQP_VHOST = os.getenv('AMQP_VHOST', '/')
 AMQP_TASK_QUEUE = os.getenv('AMQP_TASK_QUEUE', 'lens-worker-fe')
 AMQP_MANAGEMENT_TOPIC = os.getenv('AMQP_MANAGEMENT_TOPIC', 'lens-worker-fe')
 
